@@ -1,0 +1,96 @@
+<!-- Section: Design Block -->
+<header class="header">
+    <img class="satyamev-logo" src="assets\lio.png" alt="Satyamev Jayate Logo" class="satyamev-logo">
+    <a  class="logo-text">Unique Identification Authority of India</a>
+    <img class="satyamev-log" src="assets\aadhar.png" alt="Satyamev Jayate Logo" class="satyamev-logo">
+  </header>
+  <div class="header__bar"><div class="header__bar-content-wrapper">
+    <img  class="header__dashboard-logo"><div class="header__dashboard-label">
+        <div class="nav-comp">
+            <span>myAadhaar</span>
+               
+        </div>
+</div>
+</div>
+</div>
+<section class="">
+    <!-- Jumbotron -->
+    <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
+      <div class="container">
+        <div class="row gx-lg-5 align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h1 class="my-5 display-3 fw-bold ls-tight">
+                Digital Trust <br />
+              <span class="text-primary">Verify Now</span>
+            </h1>
+            <p style="color: hsl(217, 10%, 50.8%)">
+                Your identity is your most valuable possession; safeguard it with the trust of Aadhar verification
+            </p>
+          </div>
+   
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="card">
+              <div class="card-body py-5 px-md-5">
+                <form [formGroup]="emailForm" (ngSubmit)="navigate()">
+                  <!-- Email input with validation messages -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control" placeholder="Email" formControlName="email">
+                    <div *ngIf="emailForm.get('email')?.hasError('required') && emailForm.get('email')?.touched" class="text-danger">
+                      Email is required
+                    </div>
+                    <div *ngIf="emailForm.get('email')?.hasError('email') && emailForm.get('email')?.touched" class="text-danger">
+                      Invalid email format
+                    </div>
+                    
+                  </div>
+                
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary btn-block mb-4" [disabled]="!emailForm.valid">
+                    Sign up
+                  </button>
+                
+                  <!-- Register buttons -->
+                  <div class="text-center">
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <!-- Add other social media buttons as needed -->
+                  </div>
+               
+                  <!-- Register buttons -->
+                  <div class="text-center">
+                   
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-facebook-f"></i>
+                    </button>
+   
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-google"></i>
+                    </button>
+   
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-twitter"></i>
+                    </button>
+   
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                      <i class="fab fa-github"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </section>
+  <footer class="footer">
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </footer>
+  <!-- Section: Design Block -->
