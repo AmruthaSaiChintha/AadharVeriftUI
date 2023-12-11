@@ -39,6 +39,10 @@ export class UserService {
   getUser(id:number):Observable<any> {
     return this.http.get(this.apiUrl+'/'+id);
   }
+  getAll(): Observable<any> {
+  
+    return this.http.get(this.apiUrl)
+}
   getUser1(id:number):Observable<any> {
     return this.http.get(this.apiUrl1+'/'+id);
   }

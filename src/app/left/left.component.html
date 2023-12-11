@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+ body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin-right: 20px; /* Added margin to the right */
+}
+
+.faq-container {
+    max-width: 500px; /* Reduced the max-width */
+    margin: 50px 0; /* Adjusted the margin */
+    padding: 0 20px; /* Added padding to the sides */
+}
+
+.faq-item {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.faq-question {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.faq-answer {
+    padding: 8px;
+    display: none;
+    font-size: 10px;
+}
+
+.faq-answer.show {
+    display: block;
+}
+
+.faq-heading {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div class="container faq-container">
+    <h2 class="faq-heading">Frequently Asked Questions</h2>
+    
+    <div class="faq-item">
+        <div class="faq-question" data-toggle="collapse" data-target="#faq1">
+            What is e-Aadhar?
+        </div>
+        <div id="faq1" class="faq-answer collapse show">
+            e-Aadhar is a digitally signed Aadhar card that you can download from the official UIDAI website. It serves as a valid proof of identity.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" data-toggle="collapse" data-target="#faq2">
+            How to update Aadhar details online?
+        </div>
+        <div id="faq2" class="faq-answer collapse show">
+            To update Aadhar details online, visit the official UIDAI website and use the Aadhar Self Service Update Portal (SSUP). Follow the instructions to submit the required documents and complete the update process.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" data-toggle="collapse" data-target="#faq3">
+            Can I download my Aadhar without a registered mobile number?
+        </div>
+        <div id="faq3" class="faq-answer collapse show">
+            Yes, you can download your Aadhar without a registered mobile number. Visit the official UIDAI website, enter your Aadhar number, and follow the steps to receive an OTP on your registered email address for verification.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" data-toggle="collapse" data-target="#faq4">
+            Is Aadhar mandatory for all services in India?
+        </div>
+        <div id="faq4" class="faq-answer collapse show">
+            While Aadhar is widely used, it is not mandatory for all services in India. Some services may require Aadhar, but alternative identity documents are often accepted.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" data-toggle="collapse" data-target="#faq5">
+            How can I check the status of my Aadhar update?
+        </div>
+        <div id="faq5" class="faq-answer collapse show">
+            To check the status of your Aadhar update, visit the official UIDAI website and use the Aadhar Self Service Update Portal (SSUP). Enter the Update Request Number (URN) to track the status.
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

@@ -40,4 +40,16 @@ export class EmailpageComponent {
       );
     }
   }
+  navigate3()
+  {
+    this.router.navigateByUrl("emailpage")
+  }
+  navigate1()
+  {
+    this.router.navigateByUrl("contactus")
+  }
+  navigate2()
+  {
+    this.router.navigateByUrl("users")
+  }
 }

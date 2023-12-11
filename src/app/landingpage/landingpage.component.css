@@ -81,7 +81,9 @@
 }
 
 .intro button {
-  background-color: #5edaf0;
+
+
+  
   color: #000;
   padding: 10px 25px;
   border: none;
@@ -263,6 +265,10 @@ router-outlet {
   font-weight: 500;
   margin-left: 8px;
   flex: 1 1;
+}
+.btn-grou
+{
+  background-color:lightgray
 }
 :after, :before {
   box-sizing: inherit;
