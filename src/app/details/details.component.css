@@ -51,7 +51,11 @@
   background-color: #ccc;
 }
 
-
+.card
+{
+  height: 120px;
+  width:500px;
+}
 .intro p {
   font-size: 20px;
   color: #d1d1d1;
@@ -282,6 +286,10 @@ router-outlet {
   color: #fff; /* Set link color */
   text-decoration: none; /* Remove underlines from links */
   margin: 0 10px; /* Add spacing between links */
+}
+.container
+{
+  height: 550px;
 }
 
 /* Style the links differently on hover */

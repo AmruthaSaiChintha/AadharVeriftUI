@@ -172,7 +172,18 @@ export class DetailsComponent implements OnInit {
 
 
 
-
+  navigate()
+  {
+    this.router.navigateByUrl("emailpage")
+  }
+  navigate1()
+  {
+    this.router.navigateByUrl("contactus")
+  }
+  navigate2()
+  {
+    this.router.navigateByUrl("users")
+  }
 
   checkMatch(): any {
     const lowercasedResult = this.Result?.toLowerCase().trim();

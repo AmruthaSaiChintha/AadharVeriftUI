@@ -14,6 +14,9 @@ import { UpdateComponent } from './update/update.component';
 import { ImageComponent } from './image/image.component';
 import { UsersComponent } from './users/users.component';
 import { CreateupdateComponent } from './createupdate/createupdate.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { AllusersComponent } from './allusers/allusers.component';
+import { LeftComponent } from './left/left.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +27,10 @@ import { CreateupdateComponent } from './createupdate/createupdate.component';
     UpdateComponent,
     ImageComponent,
     UsersComponent,
-    CreateupdateComponent
+    CreateupdateComponent,
+    ContactusComponent,
+    AllusersComponent,
+    LeftComponent
   ],
   imports: [
     BrowserModule,

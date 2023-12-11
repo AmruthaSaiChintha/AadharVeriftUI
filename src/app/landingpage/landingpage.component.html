@@ -1,57 +1,50 @@
 <header class="header">
-    <img class="satyamev-logo" src="assets\lio.png" alt="Satyamev Jayate Logo" class="satyamev-logo">
-    <a  class="logo-text">Unique Identification Authority of India</a>
-    <img class="satyamev-log" src="assets\aadhar.png" alt="Satyamev Jayate Logo" class="satyamev-logo">
-  </header>
-  <div class="header__bar"><div class="header__bar-content-wrapper">
-    <img  class="header__dashboard-logo"><div class="header__dashboard-label">
-        <div class="nav-comp">
-            <span>myAadhaar</span>
-               <a (click)="navigate()">Login</a>
+  <img class="satyamev-logo" src="assets\lio.png" alt="Satyamev Jayate Logo" class="satyamev-logo">
+  <a class="logo-text">Unique Identification Authority of India</a>
+  <img class="satyamev-log" src="assets\aadhar.png" alt="Satyamev Jayate Logo" class="satyamev-logo">
+</header>
+
+<div class="header__bar">
+  <div class="header__bar-content-wrapper">
+    <img class="header__dashboard-logo">
+    <div class="header__dashboard-label">
+      <div class="nav-comp">
+        <span>myAadhaar</span>
+        <div class="btn-group">
+          <a (click)="navigate()" class="btn btn-primary">Login</a>
+   
         </div>
-</div>
-</div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <main>
-    <div class="intro">
-      <!-- <h1>Indian 2Welcome Back</h1> -->
+  <div class="intro">
+    <!-- <h1>Indian 2Welcome Back</h1> -->
+    <!-- <button class="buttonclass"(click)="navigate()">Login</button> -->
+  </div>
+  <div class="achievements">
+    <div class="work">
+      <p class="work-heading">What is e-Aadhaar?</p>
+      <p class="work-text">e-Aadhaar is a password protected electronic copy of Aadhaar, which is digitally signed by the competent Authority of UIDAI.</p>
+    </div>
+    <div class="work">
+      <p class="work-heading">What is Masked Aadhaar?</p>
+      <p class="work-text">
+        Mask Aadhaar option allows you to mask your Aadhaar number in your downloaded Aadhaar.</p>
+    </div>
+  </div>
+  <div class="about-me">
+    <div class="about-me-text">
+      <h2>Aadhar Uses</h2>
+      <p>Aadhaar serves as a primary identity proof for individuals, widely accepted across various sectors
+        <br>
+        Aadhaar is used in the healthcare sector for identity verification and to avail health-related services.
+      </p>
+    </div>
+    <img src="assets\showing.jpeg" alt="me">
+  </div>
+</main>
 
-      <!-- <button class="buttonclass"(click)="navigate()">Login</button> -->
-    </div>
-    <div class="achievements">
-      <div class="work">
-      
-        <p class="work-heading">What is e-Aadhaar?</p>
-        <p class="work-text">e-Aadhaar is a password protected electronic copy of Aadhaar, which is digitally signed by the competent Authority of UIDAI.</p>
-      </div>
-      <div class="work">
-       
-        <p class="work-heading">What is Masked Aadhaar?</p>
-        <p class="work-text">
-          Mask Aadhaar option allows you to mask your Aadhaar number in your downloaded Aadhaar.</p>
-      </div>
-      
-    </div>
-    <div class="about-me">
-      <div class="about-me-text">
-        <h2>Aadhar Uses</h2>
-        <p>Aadhaar serves as a primary identity proof for individuals, widely accepted across various sector
-          <br>
-          Aadhaar is used in the healthcare sector for identity verification and to avail health-related services.
-        </p>
-      </div>
-      <img src="assets\showing.jpeg" alt="me">
-    </div>
-  </main>
 
-      <footer class="footer">
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
-        <div>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Contact Us</a>
-        </div>
-      </footer>
-   
-  

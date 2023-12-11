@@ -17,6 +17,14 @@ export class LandingpageComponent {
     {
       this.router.navigateByUrl("emailpage")
     }
+    navigate1()
+    {
+      this.router.navigateByUrl("contactus")
+    }
+    navigate2()
+    {
+      this.router.navigateByUrl("users")
+    }
 }
 
 
