@@ -11,7 +11,9 @@ export class ViewpageComponent {
   email:string = '';
 
 
-  details:any;
+  
+details: any = {};
+
 
 
   constructor(private route: ActivatedRoute,
@@ -31,6 +33,13 @@ export class ViewpageComponent {
         console.log(this.details)
       }
     )
+    }
+
+
+
+    navigate()
+    {
+      this.router.navigateByUrl('emailpage')
     }
 
     submitForm() {

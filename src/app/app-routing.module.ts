@@ -9,6 +9,9 @@ import { UpdateComponent } from './update/update.component';
 import { ImageComponent } from './image/image.component';
 import { UsersComponent } from './users/users.component';
 import { CreateupdateComponent } from './createupdate/createupdate.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { AllusersComponent } from './allusers/allusers.component';
+import { LeftComponent } from './left/left.component';
 
 const routes: Routes = [
   {path:"",component:LandingpageComponent},
@@ -18,7 +21,10 @@ const routes: Routes = [
 {path:"update/:id", component:UpdateComponent},
 {path:"image",component:ImageComponent},
 {path:"users",component:UsersComponent},
-{path:"createupdate",component:CreateupdateComponent}
+{path:"createupdate",component:CreateupdateComponent},
+{path:"contactus",component:ContactusComponent},
+{path:"allusers",component:AllusersComponent},
+{path:"left",component:LeftComponent},
 
 ];
 

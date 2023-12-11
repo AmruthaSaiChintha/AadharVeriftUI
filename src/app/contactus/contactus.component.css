@@ -1,3 +1,44 @@
+/* Add your custom styles here if needed */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .header {
+    background-color: #007bff;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 
   .logo-text {
     font-size: 18px;
@@ -13,6 +54,25 @@
     display: flex;
     width: 50px; 
     margin-right: 10px; 
+}
+/* Add this CSS for styling the footer */
+.footer {
+  background-color: #333; /* Set the background color */
+  color: #fff; /* Set the text color */
+  padding: 20px; /* Add some padding for spacing */
+  text-align: center; /* Center-align the content */
+}
+
+/* Adjust the styles for links in the footer */
+.footer a {
+  color: #fff; /* Set link color */
+  text-decoration: none; /* Remove underlines from links */
+  margin: 0 10px; /* Add spacing between links */
+}
+
+/* Style the links differently on hover */
+.footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
 .satyamev-log {
     align-items: initial;
@@ -51,11 +111,7 @@
   background-color: #ccc;
 }
 
-.card
-{
-  height: 120px;
-  width:500px;
-}
+
 .intro p {
   font-size: 20px;
   color: #d1d1d1;
@@ -254,54 +310,4 @@ router-outlet {
   padding: 0;
   font-weight: inherit;
   font-style: inherit;
-}
-
-
-
-
-
-.loading-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(5px); /* Add blur effect */
-}
-/* Add this CSS for styling the footer */
-.footer {
-  background-color: #333; /* Set the background color */
-  color: #fff; /* Set the text color */
-  padding: 20px; /* Add some padding for spacing */
-  text-align: center; /* Center-align the content */
-}
-
-/* Adjust the styles for links in the footer */
-.footer a {
-  color: #fff; /* Set link color */
-  text-decoration: none; /* Remove underlines from links */
-  margin: 0 10px; /* Add spacing between links */
-}
-.container
-{
-  height: 550px;
-}
-
-/* Style the links differently on hover */
-.footer a:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-
-.loading-overlay .spinner-border {
-  width: 3rem;
-  height: 3rem;
-}
-
-.loading-overlay p {
-  margin-top: 1rem;
-}
+}  
